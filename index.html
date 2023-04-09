@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="styles.css" rel = "stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>Smart Home Technology </title>
+    <meta charset="UTF-8">
+  </head>
+  <!-- Header -->
+  <body>
+    <section class="Header">
+      <nav>
+        <a href="index.html" > <img src="./Smart Home Technology Resources/logo-no-background.png" alt="logo"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href=""> Home </a></li>
+              <li><a href=""> Products </a></li>
+              <li><a href ="">About Us</a></li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    <div class="text-box">
+      <h1> Smart Home Technology</h1>
+      <p> Trinidad and Tobago biggest distrubitor of IOT devices.</p>
+      <a href ="" class ="hero-btn"> Get A Quote </a>
+    </div>  
+    </section>
+
+    <!-- Products-->
+    <section class="Products">
+      <h1> Products We Offer</h1>
+      <p> Catering to the needs of our customers everyday lifestyle </p>
+
+      <div class="row">
+        <div class="row-col">
+          <img src= "Smart Home Technology Resources/Product 1.jpg">
+          <h3>Alexa</h3>
+          <p> Introducting the newest technology the alexa device. Capable of voice-recognization as well as linking with any alexa capable devices
+              to allow the most steamless connections. </p>
+        </div>
+        <div class="row-col">
+          <img src= "Smart Home Technology Resources/Product 2.jpg">
+          <h3> Smart Light Bulbs</h3>
+          <p> Steamless connection with both alexa and google devices to allow for full control of devices. </p>
+        </div>
+          <div class="row-col">
+            <img src="Smart Home Technology Resources/Product 3.jpg">
+            <h3> Smart Thermostat </h3>
+            <p> This device is capable of controlling your Thermostat using voice commands as well having presets that automatically adjusts based on 
+              the surrounding temperature.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class = " About-Us">
+      <div class="text-box">
+        <h1> Meet Our Team </h1>
+      </div>
+    </section>
+    <section class = "Management-Team">
+      <h1> Our Leadership Team </h1>
+  
+      <div class="Manage-row">
+        <div class="Manage-Col">
+          <img src="./Smart Home Technology Resources/Alina Wallace CEO.jpg">
+          <div class="layer">
+            <h3> Alina Wallace </h3>
+          </div>
+        </div>
+        <div class="Manage-Col">
+          <img src="./Smart Home Technology Resources/Britney Doe CFO.jpg" alt="">
+          <div class="layer">
+            <h3> Britney Doe </h3>
+          </div>
+        </div>
+        <div class="Manage-Col">
+          <img src="./Smart Home Technology Resources/Meya Reyina CTO.jpg" alt="">
+          <div class="layer">
+            <h3> Meya Reyina </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- JavaScrip for toggle menu -->
+    <script>
+
+      var navLinks = document.getElementById("navLinks")
+
+      function showMenu() {
+        navLinks.style.right = "0"
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px"
+      }
+
+    </script>
+  </body>
+</html>
